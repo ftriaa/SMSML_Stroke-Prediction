@@ -13,7 +13,7 @@ Langkah ini memastikan data yang digunakan untuk pelatihan model dalam kondisi b
 
 ### Pengembangan Model
 Beberapa model machine learning dibangun dan dievaluasi pada repositori [Membangun Model](https://github.com/ftriaa/SMSML_Stroke-Prediction/tree/2ad64a41cba6ab111c8e0b97c5d617b37a6af32d/Membangun%20Model). Aktivitas yang dilakukan antara lain:
-- Pembuatan model baseline dan model lanjutan seperti Random Forest dan XGBoost
+- Pembuatan model Naive Bayes, SVM, LightGBM, Random Forest dan XGBoost
 - Tuning hyperparameter
 - Evaluasi menggunakan metrik seperti akurasi, presisi, recall, dan F1 score
 - Menyimpan model dengan performa terbaik
@@ -28,7 +28,7 @@ Langkah ini membantu menjaga kualitas dan keandalan sistem dalam setiap iterasi.
 
 ### Pemantauan dan Logging
 Setelah model diterapkan, performanya dipantau secara real time melalui fitur yang dikembangkan di bagian [Monitoring dan Logging](https://github.com/ftriaa/SMSML_Stroke-Prediction/tree/2ad64a41cba6ab111c8e0b97c5d617b37a6af32d/Monitoring%20%26%20Logging). Fitur ini mencakup:
-- Pencatatan hasil prediksi dan error
+- Pencatatan hasil prediksi dan error log
 - Visualisasi performa model dari waktu ke waktu
 - Deteksi potensi masalah atau perubahan distribusi data
 
